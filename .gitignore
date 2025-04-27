@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database file
+db.sqlite3
+
+# Ignore virtual environment folder
+env/
+# or if your virtual environment folder has a different name, replace 'env/' accordingly
+
+# Django migrations - usually committed, so not ignored by default
+# If you want to ignore migrations, uncomment the following line
+# */migrations/*
+
+# Ignore environment variables file
+.env
+
+# Ignore static files collected by collectstatic
+/staticfiles/
+/static/
+
+# Ignore media files
+/media/
+
+# VSCode settings folder
+.vscode/
+
+# PyCharm project files
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# mypy
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
